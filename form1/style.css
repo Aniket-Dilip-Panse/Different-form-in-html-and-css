@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right,purple,dodgerblue);
+    height: 100vh;
+    text-align: center;
+    font-family: Verdana;
+}
+form{
+    background-color: white;
+    max-width: 500px;
+    margin:50px auto;
+    text-align: left; 
+    padding: 30px 20px;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.6);
+    border-radius:5px;
+}
+.form-box>label{
+    display: block;
+}
+input{
+    width: 95%;
+    margin-bottom:20px;
+    height:40px;
+    padding:2px 5px;
+    margin-top:2px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
