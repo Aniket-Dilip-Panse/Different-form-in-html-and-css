@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,26 +8,44 @@ body{
     background-image:linear-gradient(to right,purple,dodgerblue);
     height: 100vh;
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 form{
     background-color: white;
     max-width: 500px;
-    margin:50px auto;
+    margin:5px auto;
     text-align: left; 
     padding: 30px 20px;
     box-shadow:1px 1px 3px rgba(0,0,0,0.6);
     border-radius:5px;
 }
-.form-box>label{
-    display: block;
+label{
+    display:block;
 }
-input{
+input,select{
     width: 95%;
     margin-bottom:20px;
     height:40px;
     padding:2px 5px;
     margin-top:2px;
-    border: 1px solid grey;
-    border-radius: 3px;
+    border:none;
+    border-bottom:1px solid dodgerblue ;
+}
+input:hover,select:hover{
+    outline: none;
+}
+textarea{
+    resize: none;
+    width: 95%;
+    padding:2px 5px;
+}
+input[type=submit]{
+    background-image:linear-gradient(to right,purple,dodgerblue);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    margin-bottom:0px;
 }
