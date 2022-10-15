@@ -6,10 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form3</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="heading">
         <h1>Responsive Checkout Form</h1>
     </div>
+    <div class="form-container">
+        <form action="">
+            <!-- div1 -->
+            <div class="div1">
+                <div class="left_div1">
+                    <h3>billing address</h3>
+                    <label for="fullName">full name</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Aniket Dilip Panse">
+                </div>
+                <div class="right_div1">
+                    <h3>payment</h3>
+                    <label for="cards">accepted cards</label>
+                    <iconify-icon icon="logos:visa"></iconify-icon>
+                    <iconify-icon icon="logos:mastercard"></iconify-icon>
+                    <iconify-icon icon="logos:paypal"></iconify-icon>
+                    <iconify-icon icon="icon-park:bank-card"></iconify-icon>
+                </div>
+            </div>
+
+
+            <!-- div2 -->
+            <div class="div2">
+                <div class="left_div2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="aniketpanse12@gmail.com">
+                </div>
+                <div class="right_div2">
+                    <label for="cardName">name on card</label>
+                    <input type="text" name="cardName" id="cardName" placeholder="Aniket Dilip Panse">  
+                </div>
+            </div>
+
+
+            <!-- div3 -->
+            <div class="div3">
+                <div class="left_div3">
+                    <label for="address">address</label>
+                    <input type="text" name="address" id="adress" placeholder="542 w. sector 7 dadanagar">
+                </div>
+                <div class="right_div2">
+                    <label for="cardName">credit card number</label>
+                    <input type="text" name="cardName" id="cardName" placeholder="1111-2222-3333-4444">  
+                </div>
+            </div>
+
+            <!-- div4 -->
+            <div class="div4">
+                <div class="left_div4">
+                    <label for="city">city</label>
+                    <input type="text" name="city" id="city" placeholder="panvel">
+                </div>
+                <div class="right_div4">
+                    <label for="xmonth">exp month</label>
+                    <input type="text" name="xmonth" id="xmonth" placeholder="October">  
+                </div>
+            </div>
+            
+            <!-- div5 -->
+            <div class="div5">
+                <div class="left1">
+                    <label for="state">state</label>
+                    <input type="text" name="state" id="state" placeholder="maharashtra">
+                </div>
+                <div class="left2">
+                    <label for="zip">zip</label>
+                    <input type="text" name="zip" id="zip" placeholder="402043">  
+                </div>
+                <div class="right1">
+                    <label for="xyear">exp year</label>
+                    <input type="text" name="xyear" id="xyear" placeholder="2027">
+                </div>
+                <div class="right2">
+                    <label for="cvv">CVV</label>
+                    <input type="text" name="cvv" id="cvv" placeholder="111">  
+                </div>
+            </div>
+        </form>
+        <div class="checkbtn">
+            <input type="checkbox" name="check" id="check"><label for="check">Shipping address same as billing</label>
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Continue to Checkout">
+        </div>
+
+    </div>
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </body>
 </html>

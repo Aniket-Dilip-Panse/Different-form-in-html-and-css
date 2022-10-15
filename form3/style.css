@@ -6,11 +6,20 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: white;
 }
 .heading{
     font-size: 2vh;
+    width: 100%;
 }
 .heading>h1{
     text-align: center;
     text-transform: capitalize;
+    padding: 10px 0px;
+    display: block;
+}
+.form-container{
+    background-color: lightslategrey;
+    margin: auto 20px;
+    height:85vh;
 }
