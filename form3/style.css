@@ -8,6 +8,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .heading{
-    text-align: center;
     font-size: 2vh;
+}
+.heading>h1{
+    text-align: center;
+    text-transform: capitalize;
 }
