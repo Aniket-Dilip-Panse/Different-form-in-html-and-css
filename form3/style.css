@@ -4,22 +4,114 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
 }
+
 .heading{
-    font-size: 2vh;
     width: 100%;
 }
+
 .heading>h1{
     text-align: center;
     text-transform: capitalize;
     padding: 10px 0px;
     display: block;
+    font-size: 5vh;
 }
+
 .form-container{
     background-color: lightslategrey;
     margin: auto 20px;
-    height:85vh;
+    height:100vh;
+    padding: 15px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1 1 500px;
+    justify-content: space-between;
+}
+
+.form-container-left{
+    width: 50%;
+    padding: 20px;
+}
+.form-container-right{
+    width: 50%;
+    padding: 20px;
+}
+.left_div1>h3,.right_div1>h3,label{
+    text-transform: capitalize;
+}
+
+.left_div1,.right_div1,.left_div2,.right_div2,.left_div3,.right_div3,.left_div4,.right_div4{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin:10px 0px
+}
+input{
+    height:6vh;
+    padding: 10px;
+}
+
+.left_div5,.right_div5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_div5>.left2,.right_div5>.right2{
+    margin-left: 2px;
+}
+.left_div5>.left2>input,.right_div5>.right2>input{
+    height:6vh;
+    padding: 10px;
+}
+
+.right_div1>iconify-icon{
+    display:flex;
+    flex-direction: row;
+}
+.submit{
+    text-align: center;
+    width: 95%;
+    border: 1px solid green;
+    margin:0px 10px;
+    padding: 2px;
+    border-radius: 7px;
+    background-color:#32CD32;
+}
+a{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.input1,.input2,.input3,.input4{
+    width:100%
+}
+
+@media only screen and (max-width: 680px) {
+    .form-container{
+        height:100%;    
+    }
+    form{
+        display:block;
+    }
+    .form-container-left{
+        width:100%;
+    }   
+    .form-container-right{
+        width: 100%;
+    } 
+    .left_div5>.left2,.right_div5>.right2{
+        margin-top:10px;
+    }
+    iconify-icon{
+        font-size: 3vh;
+    }
 }
